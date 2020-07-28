@@ -23,6 +23,7 @@ path:
 http:
   enabled: ${HTTP_ENABLE}
   compression: true
+  max_content_length: 1mb
   cors:
     enabled: ${HTTP_CORS_ENABLE}
     allow-origin: ${HTTP_CORS_ALLOW_ORIGIN}
